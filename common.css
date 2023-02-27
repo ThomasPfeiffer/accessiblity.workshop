@@ -1,0 +1,46 @@
+body {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.code {
+  font-family: Menlo, Consolas, monospace;
+}
+
+header {
+  width: 100%;
+  position: relative;
+}
+
+nav {
+  display: flex;
+  gap: 30px;
+}
+
+.blur-button {
+  position: relative;
+}
+
+.blur-overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 2;
+  pointer-events: none;
+}
+.blur-active {
+  backdrop-filter: blur(7px);
+}
+
+.task {
+  z-index: 3;
+  padding: 10px;
+  border: 3px solid #d6ee00;
+  border-radius: 20px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

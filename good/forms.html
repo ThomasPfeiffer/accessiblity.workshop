@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/common.css" />
+    <script src="/common.js" defer></script>
+    <link rel="stylesheet" href="/good/forms.css" />
+    <title>Accessiblity Workshop</title>
+    <script>
+      function validateSelect(event) {
+        if (event.target.value !== "Land") {
+          event.target.setCustomValidity("Diese Auswahl ist nicht korrekt");
+        } else {
+          event.target.setCustomValidity("");
+        }
+      }
+      function onSubmit(event) {
+        window.location.href = "/index.html";
+        event.preventDefault();
+      }
+    </script>
+  </head>
+  <body>
+    <main>
+      <form class="form" onsubmit="onSubmit(event)">
+        <h1>Welches Tier ist das?</h1>
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Pink_Fairy_Armadillo_%28Chlamyphorus_truncatus%29.jpg/800px-Pink_Fairy_Armadillo_%28Chlamyphorus_truncatus%29.jpg"
+          alt="Ein Gürtelmull"
+        />
+        <div>
+          <label for="name">Name</label>
+          <input id="name" name="name" required pattern="[Gg]ürtelmull" />
+        </div>
+        <div>
+          <label for="select">Lebensraum</label>
+          <select
+            id="select"
+            name="select"
+            required
+            oninput="validateSelect(event)"
+          >
+            <option></option>
+            <option>Land</option>
+            <option>Wasser</option>
+            <option>Luft</option>
+          </select>
+        </div>
+        <div>
+          <label for="checkbox">Säugetier</label>
+          <input type="checkbox" id="checkbox" name="checkbox" required />
+        </div>
+        <button>Weiter</button>
+      </form>
+    </main>
+  </body>
+</html>

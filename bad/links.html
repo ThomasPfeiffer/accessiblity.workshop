@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/common.css" />
+    <script src="/common.js" defer></script>
+    <title>Accessiblity Workshop</title>
+  </head>
+  <body>
+    <div aria-hidden="true">
+      <div id="BlurOverlay" class="blur-overlay"></div>
+      <section class="task">
+        <p>
+          Nutzt den Link um zur nächsten Seite zu gelangen.
+        </p>
+        <button
+          type="button"
+          class="blur-button"
+          onclick="toggleBlur()"
+          tabindex="-1"
+        >
+          Schärfe umschalten
+        </button>
+      </section>
+    </div>
+    <main>
+      <h1>Links</h1>
+      <p>
+        Diese Seite enthält einen Link. Klicken sie 
+        <span
+        onclick="location.href='/bad/structure.html'"
+        style="text-decoration: underline; color: blue; cursor: pointer"
+        >hier</span> um fortzufahren.
+      </p>
+  </body>
+</html>

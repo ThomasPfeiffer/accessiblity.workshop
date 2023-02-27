@@ -1,12 +1,12 @@
 # Accessiblity Workshop
 
-This repository contains example Projects show how Websites can be created while keeping accessiblity in mind.
+This repository contains a little challenge where you improve the accesiblity of an existing website. Contents are german only.
 
 ## Setup
 
 ### Stackblitz
 
-You can play around with this project in Stackblitz. [Click here to open the Project in Stackblitz](https://stackblitz.com/github/ThomasPfeiffer/accessiblity.workshop)
+You can play around with this project in Stackblitz. [Open in Stackblitz](https://stackblitz.com/github/ThomasPfeiffer/accessiblity.workshop)
 
 ### Local Environment
 

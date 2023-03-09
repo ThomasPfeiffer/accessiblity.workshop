@@ -4,7 +4,7 @@ This repository contains a little challenge where you improve the accesiblity of
 
 ## Einführung
 
-In diesem Repostitory ist eine Webseite, die aktuell bewusst unzugänglich gestaltet ist. Eure Aufgabe ist, dies zu ändern. Versucht, die Webseite ausschließlich mit einem Screenreader zu verwenden und parallel so anzupassen, das ihr weiterkommt. Eine sehr gute Informationsquelle sind dabei [mdn web docs zu HTML](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/HTML).
+In diesem Repostitory ist eine Webseite, die aktuell bewusst unzugänglich gestaltet ist. Eure Aufgabe ist, dies zu ändern. Versucht, die Webseite ausschließlich mit **Screenreader und Tastatur** zu verwenden und parallel so anzupassen, das ihr weiterkommt. Eine sehr gute Informationsquelle sind dabei [mdn web docs zu HTML](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/HTML).
 
 Auf jeder Seite sind Instruktionen, was zu tun ist. Diese werden nicht vom Screenreader vorgelesen. Der Rest der Seite ist mit einem Filter versehen, sodass Inhalte one Screenreader nicht mehr gelesen werden können. Neben dem Erfüllen der eigentlichen Aufgabe, könnt ihr auch versuchen den Rest der Webseite zugänglicher zu machen.
 
@@ -13,9 +13,10 @@ Wenn ihr nicht mehr weiter kommt könnt ihr
 - Den Filter oben über ein Button ausschalten
 - Die Lösungen im Ordner _good_ ansehen
 
+Das Thema Accessiblity beschränkt sich bei weitem nicht nur auf die Nutzung von Screenreadern. Diese Übung konzentriert sich auf Screenreader um einen besonders starken Kontrast zur üblichen Nutzung zu erzeugen. In den [mdn web docs](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/What_is_accessibility) findet ihr mehr Informationen.
+
 ## Voraussetzungen
 
-- Verständnis, was Accessiblity ist (siehe [mdn web docs](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/What_is_accessibility))
 - HTML
 - (etwas) Javascript
 
